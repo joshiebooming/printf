@@ -1,3 +1,4 @@
+??? from here until ???END lines may have been inserted/deleted
 #include "main.h"
 
 /**
@@ -78,9 +79,5 @@ long int convert_size_number(long int num, int size)
 long int convert_size_unsgnd(unsigned long int num, int size)
 {
 	if (size == S_LONG)
-		return (num);
-	else if (size == S_SHORT)
-		return ((unsigned short)num);
-
-	return ((unsigned int)num);
-}
+		return (num
+???END
